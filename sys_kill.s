@@ -15,7 +15,7 @@ _main:
 
 
 _push_rsp_pid:
-	mov rax, 57
+	mov rax, 39
 	syscall
 	mov rdx, rax
 	jmp _print_pid
